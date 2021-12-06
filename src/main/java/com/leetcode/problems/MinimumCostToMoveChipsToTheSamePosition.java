@@ -2,6 +2,12 @@ package com.leetcode.problems;
 
 public class MinimumCostToMoveChipsToTheSamePosition {
 
+    /**
+     * LeetCode-1217 MinimumCostToMoveChipsToTheSamePosition
+     * Time Complexity : O(n), n is size of array of positions
+     * Space Complexity : O(1)
+     */
+
     public static void main(String[] args) {
         int[] position = new int[]{1, 2, 3};
         MinimumCostToMoveChipsToTheSamePosition minimumCostToMoveChipsToTheSamePosition =
