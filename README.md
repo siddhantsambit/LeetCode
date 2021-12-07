@@ -10,3 +10,4 @@ LeetCode Repository
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Java](../master/src/main/java/com/leetcode/problems/ContainsDuplicate.java)||Easy|HashSet|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](../master/src/main/java/com/leetcode/problems/TwoSum.java)||Easy|HashMap|
 |53|[Maximum Sub Array](https://leetcode.com/problems/maximum-subarray/)|[Java](../master/src/main/java/com/leetcode/problems/MaximumSubArray.java)||Easy|Kadane's Algorithm|
+|1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Java](../master/src/main/java/com/leetcode/problems/LinkedListBinaryNumberToInteger.java)||Easy||
