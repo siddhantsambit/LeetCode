@@ -8,7 +8,6 @@ public class KthLargest {
      * LeetCode-1046 Kth Largest Element in a Stream
      * Time Complexity : O(nlogn)
      * Auxiliary Space Complexity : O(n)
-     *
      */
 
     private PriorityQueue<Integer> heap;

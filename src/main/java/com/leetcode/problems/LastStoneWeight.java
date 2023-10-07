@@ -9,7 +9,6 @@ public class LastStoneWeight {
      * LeetCode-1046
      * Time Complexity : O(nlogn), worst case
      * Auxiliary Space Complexity : O(n) , worst case
-     *
      */
 
     public static void main(String[] args) {
