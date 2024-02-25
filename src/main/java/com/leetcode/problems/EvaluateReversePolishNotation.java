@@ -9,7 +9,7 @@ public class EvaluateReversePolishNotation {
     /*
     * LeetCode-217 EvaluateReversePolishNotation
     * Time Complexity - O(n), n is length of input
-    * Space Compliexity : O(n)
+    * Space Complexity : O(n)
     */
     static int result;
     public static void main(String[] args) {
