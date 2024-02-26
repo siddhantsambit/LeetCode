@@ -5,6 +5,11 @@ import java.util.List;
 
 public class GenerateParentheses {
 
+    /*
+    * LeetCode-22 GenerateParentheses
+    * Time Complexity - O(2^n), n is input integer
+    * Space Complexity - O(2*n)
+    */
     public static void main(String[] args) {
         GenerateParentheses generateParentheses = new GenerateParentheses();
         generateParentheses.generateParenthesis(3).forEach(System.out::println);

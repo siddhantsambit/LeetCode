@@ -11,7 +11,6 @@ public class EvaluateReversePolishNotation {
     * Time Complexity - O(n), n is length of input
     * Space Complexity : O(n)
     */
-    static int result;
     public static void main(String[] args) {
         EvaluateReversePolishNotation evaluateReversePolishNotation = new EvaluateReversePolishNotation();
         int a[] = {1,2,3};
