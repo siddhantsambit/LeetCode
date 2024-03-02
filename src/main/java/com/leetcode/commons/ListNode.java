@@ -18,10 +18,13 @@ public class ListNode {
     }
 
     public void printList(ListNode node) {
-        while(node.next != null) {
-            System.out.print(node.val + " -> ");
-            node = node.next;
+        if(node == null) System.out.println("Empty List ...");
+        else {
+            while(node.next != null) {
+                System.out.print(node.val + " -> ");
+                node = node.next;
+            }
+            System.out.println(node.val + " -> null");
         }
-        System.out.println(node.val + " -> null");
     }
 }
