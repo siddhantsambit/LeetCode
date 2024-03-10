@@ -17,7 +17,7 @@ public class RemoveNthNodeFromEndOfList {
         ListNode head3 = new ListNode(1);
         head3.next = new ListNode(2);
 
-        Solution1 solution1 = new Solution1();
+        RemoveNthNodeFromEndOfListSolution1 solution1 = new RemoveNthNodeFromEndOfListSolution1();
         head1 = solution1.removeNthFromEnd(head1, 2);
         dummyNode.printList(head1);
         head2 = solution1.removeNthFromEnd(head2, 1);
@@ -36,7 +36,7 @@ public class RemoveNthNodeFromEndOfList {
         head3 = new ListNode(1);
         head3.next = new ListNode(2);
 
-        Solution2 solution2 = new Solution2();
+        RemoveNthNodeFromEndOfListSolution2 solution2 = new RemoveNthNodeFromEndOfListSolution2();
         head1 = solution2.removeNthFromEnd(head1, 2);
         dummyNode.printList(head1);
         head2 = solution2.removeNthFromEnd(head2, 1);
@@ -46,7 +46,7 @@ public class RemoveNthNodeFromEndOfList {
     }
 }
 
-class Solution1 {
+class RemoveNthNodeFromEndOfListSolution1 {
 
     /*
     * LeetCode-19 RemoveNthNodeFromEndOfList
@@ -89,7 +89,7 @@ class Solution1 {
     }
 }
 
-class Solution2 {
+class RemoveNthNodeFromEndOfListSolution2 {
 
     /*
      * LeetCode-19 RemoveNthNodeFromEndOfList
