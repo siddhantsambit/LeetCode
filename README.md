@@ -1,5 +1,5 @@
 # LeetCode
-LeetCode Repository
+LeetCode Question Repository
 
 ## Algorithms
 
