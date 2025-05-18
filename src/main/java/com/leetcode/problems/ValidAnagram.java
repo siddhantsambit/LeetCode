@@ -6,16 +6,6 @@ public class ValidAnagram {
      * Time Complexity : O(n)
      * Space Complexity : O(26)
      */
-    public static void main(String[] args) {
-        String s = "anagram";
-        String t = "nagaram";
-        ValidAnagram validAnagram = new ValidAnagram();
-        System.out.println(validAnagram.isAnagram(s, t));
-        s = "rat";
-        t = "car";
-        System.out.println(validAnagram.isAnagram(s, t));
-    }
-
     public boolean isAnagram(String s, String t) {
         if(s.length() != t.length()) return false;
         int[] freqS = getFrequencyArr(s);
