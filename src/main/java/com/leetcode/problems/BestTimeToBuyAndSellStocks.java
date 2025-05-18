@@ -3,7 +3,7 @@ package com.leetcode.problems;
 public class BestTimeToBuyAndSellStocks {
 
     /**
-     * LeetCode-121 Best Time to Buy and Sell Stock
+     * LeetCode-121 BestTimeToBuyAndSellStocks
      * Time Complexity : O(max(len(l1), len(l2)))
      * Space Complexity : O(max(len(l1), len(l2)))
      */
